@@ -18,8 +18,6 @@ const createWindow = () => {
 
   // and load the index.html of the app.
   mainWindow.loadURL(`https://eager-archimedes-bdc476.netlify.com/`);
-
-  mainWindow.webContents.openDevTools()
   
   // Emitted when the window is closed.
   mainWindow.on('closed', () => {

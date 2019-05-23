@@ -1,7 +1,7 @@
 {
   "name": "wunderlist-download",
   "productName": "wunderlist-download",
-  "version": "1.0.0",
+  "version": "1.1.685",
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
@@ -17,6 +17,10 @@
   "config": {
     "forge": {
       "packagerConfig": {},
+      "github_repository": {
+        "owner": "team-wunderlist",
+        "repo": "brandonBeingADuck"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
