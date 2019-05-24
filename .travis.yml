@@ -23,6 +23,9 @@ branches:
   - master
   - /^v\d+\.\d+\.\d+/
 
+env:
+  - forge.github_repository.prerelease=true
+
 install:
 - npm install
 - npm update
